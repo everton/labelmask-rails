@@ -1,12 +1,14 @@
 # Labelmask::Rails
 
-TODO: Write a gem description
+labelmask-rails wraps the [labelmask.js](https://github.com/bradfrost/labelmask) library in a rails engine for simple use with the asset pipeline. The gem includes the development (non-minified) source for ease of exploration. The asset pipeline will minify in production.
+
+labelmask is "a way to create accessible input hinting without using input masks".
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'labelmask-rails'
+    gem 'labelmask-rails', github 'everton/labelmask-rails'
 
 And then execute:
 
@@ -18,7 +20,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add the following to your gemfile:
+
+    gem 'labelmask-rails'
+
+Add the following directive to your Javascript manifest file (application.js):
+
+    //= require labelmask
+
+
+## Versioning
+
+TODO
 
 ## Contributing
 
